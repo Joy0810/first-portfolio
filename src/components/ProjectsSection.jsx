@@ -7,7 +7,7 @@ const projects = [
     description: "A beautiful landing page app using React and Tailwind.",
     image: "/projects/project1.png",
     tags: ["React", "TailwindCSS", "JavaScript"],
-    githubUrl: "#home",
+    githubUrl: "https://github.com/Joy0810/first-portfolio",
   },
   {
     id: 2,
