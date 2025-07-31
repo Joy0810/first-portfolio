@@ -1,2 +1,2 @@
 # Portfolio Website
-### Using React JS and Tailwind
+Using React JS and Tailwind
