@@ -5,7 +5,7 @@ const projects = [
     id: 1,
     title: "Portfolio Landing Page",
     description: "A beautiful landing page app using React and Tailwind.",
-    image: "/projects/project1.png",
+    image: `${import.meta.env.BASE_URL}projects/project1.png`,
     tags: ["React", "TailwindCSS", "JavaScript"],
     githubUrl: "https://github.com/Joy0810/first-portfolio",
   },
@@ -14,7 +14,7 @@ const projects = [
     title: "Chess App",
     description:
       "A full-stack real-time multiplayer chess game built with React on the frontend and Node.js + WebSockets on the backend.",
-    image: "/projects/project2.png",
+    image: `${import.meta.env.BASE_URL}projects/project2.png`,
     tags: ["TypeScript", "Chess.js", "WebSockets"],
     githubUrl: "https://github.com/Joy0810/chess-app",
   },
@@ -23,7 +23,7 @@ const projects = [
     title: "Employee Attrition Prediction",
     description:
       "Prediction of Employee Attrition and Salary.",
-    image: "/projects/project3.png",
+    image: `${import.meta.env.BASE_URL}projects/project3.png`,
     tags: ["Python", "panda & numpy", "matplotlib"],
     githubUrl: "https://github.com/Joy0810/ML/tree/main/src/part1",
   },

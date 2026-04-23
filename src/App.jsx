@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom"
+import { HashRouter, Routes, Route } from "react-router-dom"
 import { Home } from "./pages/Home"
 import { NotFound } from "./pages/NotFound"
 import { Toaster } from "./components/ui/toaster"
@@ -7,12 +7,12 @@ import { Toaster } from "./components/ui/toaster"
 function App() {
 
   return <>
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route index element={<Home/>}/>
         <Route path="*" element={<NotFound/>}/>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
     <Toaster/>
   </>
 }
