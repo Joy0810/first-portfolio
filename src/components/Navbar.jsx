@@ -1,13 +1,11 @@
+import { NavLink } from "react-router-dom"
 import { useEffect, useState } from "react"
 import { cn } from "../lib/utils"
 import { Menu, X } from "lucide-react";
 
 const navItems = [
-    { name: "Home", href: "#home" },
-    { name: "About", href: "#about" },
-    { name: "Skills", href: "#skills" },
-    { name: "Projects", href: "#projects" },
-    { name: "Contact", href: "#contact" },
+    { name: "Home", href: "/" },
+    { name: "Projects", href: "/projects" },
 ]
 
 export const Navbar = () => {
@@ -41,13 +39,16 @@ export const Navbar = () => {
             {/* For desktop */}
             <div className="hidden md:flex space-x-8">
                 {navItems.map((item, key) => (
-                    <a
+                    <NavLink
                         key={key}
-                        href={item.href}
-                        className="text-foreground/80 hover:text-primary transition-colors duration-300"
+                        to={item.href}
+                        className={({ isActive }) => cn(
+                            "text-sm font-medium transition-colors duration-300",
+                            isActive ? "text-primary" : "text-foreground/80 hover:text-primary"
+                        )}
                     >
                         {item.name}
-                    </a>
+                    </NavLink>
                 ))}
             </div>
 
@@ -68,14 +69,17 @@ export const Navbar = () => {
             )}>
                 <div className="flex flex-col space-y-8 text-xl">
                     {navItems.map((item, key) => (
-                        <a
+                        <NavLink
                             key={key}
-                            href={item.href}
-                            className="text-foreground/80 hover:text-primary transition-colors duration-300"
+                            to={item.href}
+                            className={({ isActive }) => cn(
+                                "transition-colors duration-300",
+                                isActive ? "text-primary" : "text-foreground/80 hover:text-primary"
+                            )}
                             onClick={()=>setIsMenuOpen(false)}
                         >
                             {item.name}
-                        </a>
+                        </NavLink>
                     ))}
                 </div>
             </div>

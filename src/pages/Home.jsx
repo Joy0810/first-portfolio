@@ -21,7 +21,6 @@ export function Home(){
             <HeroSection/>
             <AboutSection/>
             <SkillsSection/>
-            <ProjectsSection/>
             <ContactSection/>
         </main>
 

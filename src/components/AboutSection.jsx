@@ -20,10 +20,22 @@ export const AboutSection = () => {
               and I'm eager to learn and grow.
             </p>
 
-            <p className="text-muted-foreground">
-              I'm passionate to learn new technologies and apply them to real-world projects.
-              And I enjoy the process.
-            </p>
+            <div className="space-y-4">
+              <h4 className="text-lg font-semibold text-primary">Research Interests</h4>
+              <p className="text-muted-foreground text-sm">
+                Deep Learning, Blockchain Scalability, and Human-Computer Interaction (HCI) in Decentralized Systems.
+              </p>
+            </div>
+
+            <div className="space-y-4 bg-secondary/20 p-6 rounded-xl border border-primary/10">
+              <h4 className="text-lg font-semibold text-primary">Personal Details</h4>
+              <ul className="text-sm space-y-2 text-muted-foreground">
+                <li><span className="font-medium text-foreground">Name:</span> L Joy Nirantar</li>
+                <li><span className="font-medium text-foreground">Phone:</span> 9502624039</li>
+                <li><span className="font-medium text-foreground">College Email:</span> se23uari169@mahindrauniversity.edu.in</li>
+                <li><span className="font-medium text-foreground">Personal Email:</span> nirantarjoy@gmail.com</li>
+              </ul>
+            </div>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
               <a href="#contact" className="cosmic-button">

@@ -1,4 +1,5 @@
 import { ArrowDown } from "lucide-react"
+import profilePic from "../assets/image.png"
 
 export const HeroSection = () => {
   return <section 
@@ -7,6 +8,17 @@ export const HeroSection = () => {
   >
     <div className="container max-w-4xl mx-auto text-center z-10">
         <div className="space-y-6">
+            {/* Profile Picture */}
+            <div className="w-32 h-32 md:w-40 md:h-40 mx-auto rounded-full border-4 border-primary/20 p-1 mb-8 opacity-0 animate-fade-in shadow-[0_0_20px_rgba(139,92,246,0.3)]">
+              <div className="w-full h-full rounded-full bg-secondary flex items-center justify-center overflow-hidden">
+                <img 
+                  src={profilePic} 
+                  alt="L Joy Nirantar Profile Picture" 
+                  className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
+                />
+              </div>
+            </div>
+
             <h1 className="text-4xl md:text-6xl font-bold text-foreground tracking-tight">
                 <span className="opacity-0 animate-fade-in">Hey, </span>
                 <span className="text-gradient opacity-0 animate-fade-in-delay-1">this is </span>
