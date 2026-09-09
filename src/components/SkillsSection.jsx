@@ -3,22 +3,31 @@ import { cn } from "../lib/utils";
 
 const skills=[
 
-  {name:"HTML/CSS", level:85, category:"frontend"},
-  {name:"JavaScript", level:80, category:"frontend"},
+  {name:"JavaScript", level:85, category:"frontend"},
+  {name:"TypeScript", level:80, category:"frontend"},
   {name:"React", level:85, category:"frontend"},
-  {name:"TypeScript", level:75, category:"frontend"},
-  {name:"Tailwind CSS", level:85, category:"frontend"},
+  {name:"Next.js", level:75, category:"frontend"},
+  {name:"HTML/CSS", level:85, category:"frontend"},
 
-  { name: "Node.js", level: 80, category: "backend" },
-  { name: "Express", level: 80, category: "backend" },
-  { name: "MongoDB", level: 75, category: "backend" },
-  { name: "PostgreSQL", level: 40, category: "backend" },
+  {name:"Node.js", level:85, category:"backend"},
+  {name:"Express.js", level:85, category:"backend"},
+  {name:"FastAPI", level:75, category:"backend"},
+  {name:"PostgreSQL", level:80, category:"backend"},
+  {name:"MongoDB", level:70, category:"backend"},
+  {name:"REST APIs", level:85, category:"backend"},
 
-  { name: "Git/GitHub", level: 75, category: "tools" },
-  { name: "VS Code", level: 90, category: "tools" },
+  {name:"Python", level:85, category:"ai-ml"},
+  {name:"PyTorch", level:65, category:"ai-ml"},
+  {name:"XGBoost", level:70, category:"ai-ml"},
+  {name:"RAG / Vector Search", level:70, category:"ai-ml"},
+
+  {name:"Docker", level:75, category:"tools"},
+  {name:"Git/GitHub", level:85, category:"tools"},
+  {name:"CI/CD (GitHub Actions)", level:70, category:"tools"},
+  {name:"Claude Code / Codex", level:85, category:"tools"},
 ]
 
-const categories = ["all", "frontend", "backend", "tools"];
+const categories = ["all", "frontend", "backend", "ai-ml", "tools"];
 
 export const SkillsSection = () => {
   const [activeCategory, setActiveCategory] = useState("all");

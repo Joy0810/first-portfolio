@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">SupportOps abstract project thumbnail</title>
+  <desc id="desc">Dark terminal and circuit diagnostics motif.</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="hsl(222, 47%, 8%)"/>
+      <stop offset="100%" stop-color="hsl(222, 47%, 4%)"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="540" fill="hsl(222, 47%, 4%)"/>
+  <rect x="110" y="82" width="740" height="376" rx="18" fill="url(#panel)" stroke="hsl(217, 33%, 20%)" stroke-width="2"/>
+  <rect x="110" y="82" width="740" height="54" rx="18" fill="hsl(222, 47%, 8%)"/>
+  <circle cx="146" cy="109" r="7" fill="hsl(250, 65%, 65%)"/>
+  <circle cx="174" cy="109" r="7" fill="hsl(213, 31%, 91%)" opacity="0.55"/>
+  <circle cx="202" cy="109" r="7" fill="hsl(217, 33%, 20%)"/>
+  <g font-family="Consolas, monospace" font-size="34" fill="hsl(213, 31%, 91%)">
+    <text x="158" y="214">&gt; run diagnostics</text>
+    <text x="158" y="278" fill="hsl(250, 65%, 65%)">status: tracing root cause</text>
+    <text x="158" y="342">network  cpu  disk  api</text>
+  </g>
+  <g fill="none" stroke="hsl(250, 65%, 65%)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M626 192h88v54h70"/>
+    <path d="M626 270h52v90h106"/>
+    <path d="M626 348h66"/>
+  </g>
+  <g fill="hsl(222, 47%, 4%)" stroke="hsl(250, 65%, 65%)" stroke-width="4">
+    <circle cx="626" cy="192" r="14"/>
+    <circle cx="626" cy="270" r="14"/>
+    <circle cx="626" cy="348" r="14"/>
+    <circle cx="784" cy="246" r="18"/>
+    <circle cx="784" cy="360" r="18"/>
+  </g>
+  <g opacity="0.75" fill="hsl(213, 31%, 91%)">
+    <rect x="158" y="382" width="116" height="8" rx="4"/>
+    <rect x="290" y="382" width="72" height="8" rx="4"/>
+    <rect x="378" y="382" width="146" height="8" rx="4"/>
+  </g>
+</svg>

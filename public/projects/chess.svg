@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Chess app abstract project thumbnail</title>
+  <desc id="desc">Dark checkered board motif with highlighted move path.</desc>
+  <defs>
+    <linearGradient id="boardGlow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="hsl(250, 65%, 65%)" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="hsl(222, 47%, 4%)" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="540" fill="hsl(222, 47%, 4%)"/>
+  <rect width="960" height="540" fill="url(#boardGlow)"/>
+  <g transform="translate(240 54)">
+    <rect width="432" height="432" rx="18" fill="hsl(222, 47%, 8%)" stroke="hsl(217, 33%, 20%)" stroke-width="3"/>
+    <g opacity="0.92">
+      <rect x="0" y="0" width="54" height="54" fill="hsl(250, 65%, 65%)" opacity="0.35"/>
+      <rect x="108" y="0" width="54" height="54" fill="hsl(250, 65%, 65%)" opacity="0.35"/>
+      <rect x="216" y="0" width="54" height="54" fill="hsl(250, 65%, 65%)" opacity="0.35"/>
+      <rect x="324" y="0" width="54" height="54" fill="hsl(250, 65%, 65%)" opacity="0.35"/>
+      <rect x="54" y="54" width="54" height="54" fill="hsl(250, 65%, 65%)" opacity="0.35"/>
+      <rect x="162" y="54" width="54" height="54" fill="hsl(250, 65%, 65%)" opacity="0.35"/>
+      <rect x="270" y="54" width="54" height="54" fill="hsl(250, 65%, 65%)" opacity="0.35"/>
+      <rect x="378" y="54" width="54" height="54" fill="hsl(250, 65%, 65%)" opacity="0.35"/>
+      <rect x="0" y="108" width="54" height="54" fill="hsl(250, 65%, 65%)" opacity="0.35"/>
+      <rect x="108" y="108" width="54" height="54" fill="hsl(250, 65%, 65%)" opacity="0.35"/>
+      <rect x="216" y="108" width="54" height="54" fill="hsl(250, 65%, 65%)" opacity="0.35"/>
+      <rect x="324" y="108" width="54" height="54" fill="hsl(250, 65%, 65%)" opacity="0.35"/>
+      <rect x="54" y="162" width="54" height="54" fill="hsl(250, 65%, 65%)" opacity="0.35"/>
+      <rect x="162" y="162" width="54" height="54" fill="hsl(250, 65%, 65%)" opacity="0.35"/>
+      <rect x="270" y="162" width="54" height="54" fill="hsl(250, 65%, 65%)" opacity="0.35"/>
+      <rect x="378" y="162" width="54" height="54" fill="hsl(250, 65%, 65%)" opacity="0.35"/>
+      <rect x="0" y="216" width="54" height="54" fill="hsl(250, 65%, 65%)" opacity="0.35"/>
+      <rect x="108" y="216" width="54" height="54" fill="hsl(250, 65%, 65%)" opacity="0.35"/>
+      <rect x="216" y="216" width="54" height="54" fill="hsl(250, 65%, 65%)" opacity="0.35"/>
+      <rect x="324" y="216" width="54" height="54" fill="hsl(250, 65%, 65%)" opacity="0.35"/>
+      <rect x="54" y="270" width="54" height="54" fill="hsl(250, 65%, 65%)" opacity="0.35"/>
+      <rect x="162" y="270" width="54" height="54" fill="hsl(250, 65%, 65%)" opacity="0.35"/>
+      <rect x="270" y="270" width="54" height="54" fill="hsl(250, 65%, 65%)" opacity="0.35"/>
+      <rect x="378" y="270" width="54" height="54" fill="hsl(250, 65%, 65%)" opacity="0.35"/>
+      <rect x="0" y="324" width="54" height="54" fill="hsl(250, 65%, 65%)" opacity="0.35"/>
+      <rect x="108" y="324" width="54" height="54" fill="hsl(250, 65%, 65%)" opacity="0.35"/>
+      <rect x="216" y="324" width="54" height="54" fill="hsl(250, 65%, 65%)" opacity="0.35"/>
+      <rect x="324" y="324" width="54" height="54" fill="hsl(250, 65%, 65%)" opacity="0.35"/>
+      <rect x="54" y="378" width="54" height="54" fill="hsl(250, 65%, 65%)" opacity="0.35"/>
+      <rect x="162" y="378" width="54" height="54" fill="hsl(250, 65%, 65%)" opacity="0.35"/>
+      <rect x="270" y="378" width="54" height="54" fill="hsl(250, 65%, 65%)" opacity="0.35"/>
+      <rect x="378" y="378" width="54" height="54" fill="hsl(250, 65%, 65%)" opacity="0.35"/>
+    </g>
+    <path d="M84 354L192 246L300 138" fill="none" stroke="hsl(213, 31%, 91%)" stroke-width="8" stroke-linecap="round" stroke-dasharray="18 16"/>
+    <circle cx="84" cy="354" r="20" fill="hsl(222, 47%, 8%)" stroke="hsl(213, 31%, 91%)" stroke-width="5"/>
+    <circle cx="300" cy="138" r="24" fill="hsl(250, 65%, 65%)"/>
+    <path d="M300 102l18 30 34 8-23 27 3 35-32-14-32 14 3-35-23-27 34-8 18-30z" fill="hsl(213, 31%, 91%)" opacity="0.9"/>
+  </g>
+</svg>

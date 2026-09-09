@@ -3,29 +3,48 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "Portfolio Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
-    image: `${import.meta.env.BASE_URL}projects/project1.png`,
-    tags: ["React", "TailwindCSS", "JavaScript"],
-    githubUrl: "https://github.com/Joy0810/first-portfolio",
+    title: "RiskLens - AI-Powered Pull Request Risk Intelligence Platform",
+    description:
+      "ML pipeline predicting pull request risk from historical commit and bug-fix data using an XGBoost classifier with SHAP-based explainability; RAG pipeline (pgvector) grounds AI review feedback in real engineering standards.",
+    image: "/projects/risklens.svg",
+    tags: ["React", "TypeScript", "FastAPI", "PostgreSQL", "XGBoost", "Docker"],
+    githubUrl: "",
   },
   {
     id: 2,
-    title: "Chess App",
+    title: "Satellite Imagery Analysis for Power Line Corridors",
     description:
-      "A full-stack real-time multiplayer chess game built with React on the frontend and Node.js + WebSockets on the backend.",
-    image: `${import.meta.env.BASE_URL}projects/project2.png`,
-    tags: ["TypeScript", "Chess.js", "WebSockets"],
-    githubUrl: "https://github.com/Joy0810/chess-app",
+      "End-to-end geospatial pipeline over Sentinel-2 satellite imagery detecting vegetation encroachment in high-voltage power line corridors, reaching F1 0.83 and AP 0.90; packaged for ARM edge hardware deployment.",
+    image: "/projects/satellite.svg",
+    tags: ["Python", "PyTorch", "OpenCV", "Sentinel-2"],
+    githubUrl: "",
   },
   {
     id: 3,
+    title: "SupportOps - Cross-Platform IT Diagnostics & Troubleshooting Platform",
+    description:
+      "Extends an open-source sysadmin toolkit into a full IT support platform with a FastAPI backend, REST endpoints, and a React dashboard for diagnostics, network checks, and automated root-cause analysis.",
+    image: "/projects/supportops.svg",
+    tags: ["Python", "PowerShell", "FastAPI", "React"],
+    githubUrl: "",
+  },
+  {
+    id: 4,
     title: "Employee Attrition Prediction",
     description:
       "Prediction of Employee Attrition and Salary.",
-    image: `${import.meta.env.BASE_URL}projects/project3.png`,
+    image: "/projects/attrition.svg",
     tags: ["Python", "panda & numpy", "matplotlib"],
     githubUrl: "https://github.com/Joy0810/ML/tree/main/src/part1",
+  },
+  {
+    id: 5,
+    title: "Chess App",
+    description:
+      "A full-stack real-time multiplayer chess game built with React on the frontend and Node.js + WebSockets on the backend.",
+    image: "/projects/chess.svg",
+    tags: ["TypeScript", "Chess.js", "WebSockets"],
+    githubUrl: "https://github.com/Joy0810/chess-app",
   },
 ];
 
@@ -79,13 +98,16 @@ export const ProjectsSection = () => {
                     >
                       <ExternalLink size={20} />
                     </a> */}
-                    <a
-                      href={project.githubUrl}
-                      target="_blank"
-                      className="text-foreground/80 hover:text-primary transition-colors duration-300"
-                    >
-                      <Github size={20} />
-                    </a>
+                    {project.githubUrl && (
+                      <a
+                        href={project.githubUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-foreground/80 hover:text-primary transition-colors duration-300"
+                      >
+                        <Github size={20} />
+                      </a>
+                    )}
                   </div>
                 </div>
               </div>

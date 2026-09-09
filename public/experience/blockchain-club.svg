@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Blockchain Club education abstract thumbnail</title>
+  <desc id="desc">Dark linked blocks with hub and spoke mentorship motif.</desc>
+  <defs>
+    <linearGradient id="chainGlow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="hsl(250, 65%, 65%)" stop-opacity="0.32"/>
+      <stop offset="55%" stop-color="hsl(250, 65%, 65%)" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="hsl(222, 47%, 4%)" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="540" fill="hsl(222, 47%, 4%)"/>
+  <rect width="960" height="540" fill="url(#chainGlow)"/>
+  <g opacity="0.26" stroke="hsl(217, 33%, 20%)" stroke-width="2">
+    <circle cx="480" cy="270" r="198" fill="none"/>
+    <circle cx="480" cy="270" r="126" fill="none"/>
+    <path d="M120 270H840M480 72V468M226 116l508 308M226 424l508-308"/>
+  </g>
+  <g fill="none" stroke="hsl(250, 65%, 65%)" stroke-width="5" stroke-linecap="round">
+    <path d="M270 270H408"/>
+    <path d="M552 270H690"/>
+    <path d="M480 198V126"/>
+    <path d="M480 342V414"/>
+    <path d="M418 226L330 164"/>
+    <path d="M542 314L630 376"/>
+    <path d="M418 314L330 376"/>
+    <path d="M542 226L630 164"/>
+  </g>
+  <g fill="hsl(222, 47%, 8%)" stroke="hsl(250, 65%, 65%)" stroke-width="4">
+    <rect x="402" y="192" width="156" height="156" rx="18"/>
+    <rect x="198" y="228" width="96" height="84" rx="14"/>
+    <rect x="666" y="228" width="96" height="84" rx="14"/>
+    <rect x="432" y="74" width="96" height="84" rx="14"/>
+    <rect x="432" y="382" width="96" height="84" rx="14"/>
+    <rect x="282" y="122" width="96" height="84" rx="14"/>
+    <rect x="582" y="122" width="96" height="84" rx="14"/>
+    <rect x="282" y="334" width="96" height="84" rx="14"/>
+    <rect x="582" y="334" width="96" height="84" rx="14"/>
+  </g>
+  <g fill="hsl(213, 31%, 91%)">
+    <circle cx="480" cy="270" r="28"/>
+    <circle cx="246" cy="270" r="12" opacity="0.7"/>
+    <circle cx="714" cy="270" r="12" opacity="0.7"/>
+    <circle cx="480" cy="116" r="12" opacity="0.7"/>
+    <circle cx="480" cy="424" r="12" opacity="0.7"/>
+    <path d="M460 306h40l20 34h-80l20-34z" opacity="0.82"/>
+  </g>
+</svg>

@@ -20,15 +20,14 @@ export const HeroSection = () => {
             </div>
 
             <h1 className="text-4xl md:text-6xl font-bold text-foreground tracking-tight">
-                <span className="opacity-0 animate-fade-in">Hey, </span>
-                <span className="text-gradient opacity-0 animate-fade-in-delay-1">this is </span>
+                <span className="opacity-0 animate-fade-in">Hey, this is</span>
+                <br />
                 <span className="text-primary ml-2 opacity-0 animate-fade-in-delay-2">Joy</span>
             </h1>
 
             <p className="text-lg md:text-xl text-muted-foreground 
                 max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-                I'm a highly motivated engineering student with a strong interest in Web Development,
-                Web3 and AI. I love building projects and experimenting stuff.
+                I'm an AI undergraduate and full-stack engineer who builds backend systems, ML pipelines, and AI-augmented developer workflows — from production ERP platforms to computer vision on satellite imagery.
             </p>
 
             <div className="pt-4 opacity-0 animate-fade-in-delay-4">

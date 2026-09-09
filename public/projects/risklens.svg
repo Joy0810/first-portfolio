@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">RiskLens abstract project thumbnail</title>
+  <desc id="desc">Dark space themed network graph with highlighted pull request risk node.</desc>
+  <defs>
+    <radialGradient id="glow" cx="52%" cy="44%" r="70%">
+      <stop offset="0%" stop-color="hsl(250, 65%, 65%)" stop-opacity="0.32"/>
+      <stop offset="45%" stop-color="hsl(250, 65%, 65%)" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="hsl(222, 47%, 4%)" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="hsl(250, 65%, 65%)" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="hsl(213, 31%, 91%)" stop-opacity="0.28"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="540" fill="hsl(222, 47%, 4%)"/>
+  <rect width="960" height="540" fill="url(#glow)"/>
+  <g opacity="0.3" stroke="hsl(217, 33%, 20%)" stroke-width="1">
+    <path d="M80 92H880M80 180H880M80 268H880M80 356H880M80 444H880"/>
+    <path d="M140 54V486M260 54V486M380 54V486M500 54V486M620 54V486M740 54V486M860 54V486"/>
+  </g>
+  <g fill="none" stroke="url(#line)" stroke-linecap="round" stroke-width="4">
+    <path d="M188 348L318 228L468 294L632 170L774 286"/>
+    <path d="M318 228L400 126L632 170"/>
+    <path d="M468 294L542 404L774 286"/>
+    <path d="M188 348L542 404"/>
+  </g>
+  <g fill="hsl(222, 47%, 8%)" stroke="hsl(250, 65%, 65%)" stroke-width="4">
+    <circle cx="188" cy="348" r="26"/>
+    <circle cx="318" cy="228" r="30"/>
+    <circle cx="400" cy="126" r="22"/>
+    <circle cx="468" cy="294" r="34"/>
+    <circle cx="632" cy="170" r="28"/>
+    <circle cx="542" cy="404" r="24"/>
+    <circle cx="774" cy="286" r="30"/>
+  </g>
+  <circle cx="468" cy="294" r="56" fill="none" stroke="hsl(250, 65%, 65%)" stroke-opacity="0.45" stroke-width="10"/>
+  <path d="M456 268h24l20 54h-18l-4-12h-21l-4 12h-17l20-54zm6 29h12l-6-18-6 18z" fill="hsl(213, 31%, 91%)"/>
+  <g fill="hsl(213, 31%, 91%)" opacity="0.75">
+    <circle cx="130" cy="84" r="2"/>
+    <circle cx="825" cy="112" r="2"/>
+    <circle cx="860" cy="418" r="3"/>
+    <circle cx="102" cy="472" r="2"/>
+    <circle cx="705" cy="72" r="2"/>
+  </g>
+</svg>

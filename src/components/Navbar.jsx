@@ -1,10 +1,11 @@
-import { NavLink } from "react-router-dom"
+import { NavLink, useLocation } from "react-router-dom"
 import { useEffect, useState } from "react"
 import { cn } from "../lib/utils"
 import { Menu, X } from "lucide-react";
 
 const navItems = [
     { name: "Home", href: "/" },
+    { name: "Experience", href: "/#experience" },
     { name: "Projects", href: "/projects" },
 ]
 
@@ -12,6 +13,7 @@ export const Navbar = () => {
 
     const [isScrolled, SetIsScrolled] = useState(false);
     const [isMenuOpen,setIsMenuOpen]=useState(false);
+    const location = useLocation();
 
     useEffect(() => {
         const handleScroll = () => {
@@ -20,6 +22,19 @@ export const Navbar = () => {
         window.addEventListener("scroll", handleScroll);
         return () => window.removeEventListener("scroll", handleScroll);
     }, [])
+
+    useEffect(() => {
+        if (location.pathname === "/" && location.hash === "#experience") {
+            document.getElementById("experience")?.scrollIntoView({ behavior: "smooth" });
+        }
+    }, [location])
+
+    const handleExperienceClick = (e) => {
+        if (window.location.pathname === "/") {
+            e.preventDefault();
+            document.getElementById("experience")?.scrollIntoView({ behavior: "smooth" });
+        }
+    }
 
     return <nav
         className={cn("fixed w-full z-40 transition-all duration-300",
@@ -46,6 +61,7 @@ export const Navbar = () => {
                             "text-sm font-medium transition-colors duration-300",
                             isActive ? "text-primary" : "text-foreground/80 hover:text-primary"
                         )}
+                        onClick={item.name === "Experience" ? handleExperienceClick : undefined}
                     >
                         {item.name}
                     </NavLink>
@@ -76,7 +92,12 @@ export const Navbar = () => {
                                 "transition-colors duration-300",
                                 isActive ? "text-primary" : "text-foreground/80 hover:text-primary"
                             )}
-                            onClick={()=>setIsMenuOpen(false)}
+                            onClick={(e)=>{
+                                if (item.name === "Experience") {
+                                    handleExperienceClick(e);
+                                }
+                                setIsMenuOpen(false);
+                            }}
                         >
                             {item.name}
                         </NavLink>
