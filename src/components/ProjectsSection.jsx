@@ -2,6 +2,15 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
+    id: 6,
+    title: "Healthflow - Healthcare Intelligence Platform",
+    description:
+      "Multi-tenant healthcare platform in TypeScript/Node.js with configurable workflows, document processing, role-based access, and dynamic reporting across patient management, diagnostics, and billing. Includes an agentic AI analytics layer that turns natural-language questions into SQL to surface revenue, diagnostic-workload, and KPI insights for multi-branch organizations.",
+    image: "/projects/healthflow.svg",
+    tags: ["TypeScript", "Node.js", "LLM Workflows", "Text-to-SQL", "Multi-Tenant"],
+    githubUrl: "",
+  },
+  {
     id: 1,
     title: "RiskLens - AI-Powered Pull Request Risk Intelligence Platform",
     description:
